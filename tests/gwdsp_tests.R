@@ -1,6 +1,5 @@
 
-library(ergm)
-library(ergm.sp)
+require(ergm.terms.contrib)
 data("faux.dixon.high")
 
 test.approx = function(a, b, message, tol=1e-5) {
