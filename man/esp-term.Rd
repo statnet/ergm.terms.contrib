@@ -2,17 +2,10 @@
 \alias{desp}
 \alias{ddsp}
 \alias{dnsp}
-\alias{InitErgmTerm.desp}
-\alias{InitErgmTerm.ddsp}
-\alias{InitErgmTerm.dnsp}
-\alias{InitErgmTerm.qwesp}
 
 \alias{qwesp}
 \alias{ergm-terms}
 
-\alias{InitErgmTerm.dgwesp}
-\alias{InitErgmTerm.dgwdsp}
-\alias{InitErgmTerm.dgwnsp}
 \alias{dgwesp}
 \alias{dgwdsp}
 \alias{dgwnsp}
@@ -67,11 +60,17 @@ Hunter, D. R. and M. S. Handcock (2006). \dQuote{Inference in Curved Exponential
 Robins, G; Pattison, P; and Wang, P.  (2009).  \dQuote{Closure, Connectivity, and Degree Distributions: Exponential Random Graph (p*) Models for Directed Social Networks.}  \emph{Social Networks,} 31:105-117.
 
 }
+
+\author{
+Carter Butts \email{buttsc@uci.edu}
+Li Wang \email{lxwang@u.washington.edu}
+}
 \seealso{statnet, network, ergm, ergm-terms}
 \examples{
-\donttest{
+
 data(emon)
 summary(emon[[1]]~desp(0:10,type="OSP"))
+\donttest{
 set.seed(1)
 fit <- ergm(emon[[1]]~edges+mutual+dgwesp(0.2,type="OSP"), control=control.ergm(MCMC.interval=5000))
 summary(fit)

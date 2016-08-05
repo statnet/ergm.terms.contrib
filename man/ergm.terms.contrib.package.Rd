@@ -17,7 +17,9 @@
 
 \details{
   Terms in this package can be used in ergm models by loading the package with \code{library(ergm.terms.contrib)} 
-  Please see the documentation for each of the individual terms in the package for specific details and author information.  The help page \code{?ergm.terms} providesmore general information.  A tutorial on writing user terms is availible at \url{https://statnet.org/trac/raw-attachment/wiki/Resources/ergmusertermsPaper.pdf}
+  Please see the documentation for each of the individual terms in the package for specific details and author information.  The help page \code{?ergm.terms} provides more general information.  A tutorial on writing user terms is availible at \url{https://statnet.org/trac/raw-attachment/wiki/Resources/ergmusertermsPaper.pdf}
+  
+  If you have a term that you would like to contribute to this package, please submit a pull request to \url{https://github.com/statnet/ergm.terms.contrib} or email the package maintainers. 
     
 }
 

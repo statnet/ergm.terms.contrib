@@ -4,4 +4,4 @@ useDynLib(ergm.terms.contrib)
 import(statnet.common,network,ergm)
 
 # Export all names
-exportPattern(".")
+# exportPattern(".")
