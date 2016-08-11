@@ -4,7 +4,6 @@
 \alias{dnsp}
 
 \alias{qwesp}
-\alias{ergm-terms}
 
 \alias{dgwesp}
 \alias{dgwdsp}
