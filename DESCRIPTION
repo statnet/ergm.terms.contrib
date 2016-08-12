@@ -9,7 +9,6 @@ Authors@R: c(
        person("Pavel N.", "Krivitsky", role=c("aut"), email="pavel@uow.edu.au"),
        person("Martina", "Morris", role=c("cre"), email="morrism@u.washington.edu"),
    	   person("Carter T.", "Butts", role=c("aut"), email="buttsc@uci.edu"),
-   	   person("Li", "Wang", role=c("aut"), email="lxwang@u.washington.edu"),
    	   person("Matthew", "Hamilton", role=c("aut"), email="matthewlhamilton@gmail.com"))
 LinkingTo: ergm
 Suggests: ergm.userterms, testthat
