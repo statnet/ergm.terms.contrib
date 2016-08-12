@@ -4,7 +4,7 @@
  *  http://statnet.org/attribution
  *
  */
-#include "changestats.gwb.h"
+#include "changestats.gwbnsp.h"
 
 D_CHANGESTAT_FN(d_gwb1nsp) { 
   Edge e, f;
