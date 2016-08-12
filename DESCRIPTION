@@ -1,14 +1,18 @@
 Package: ergm.terms.contrib
 Version: 0.1
-Date: 2016-08-05
+Date: 2016-08-11
 Title:  Community-contributed ERGM model terms
 Authors@R: c(
+       person("Mark S.", "Handcock", role=c("aut"), email="handcock@stat.ucla.edu"),
+       person("David R.", "Hunter", role=c("aut"), email="dhunter@stat.psu.edu"),
+   	   person("Steven M.", "Goodreau", role=c("aut"), email="goodreau@u.washington.edu"),
+       person("Pavel N.", "Krivitsky", role=c("aut"), email="pavel@uow.edu.au"),
        person("Martina", "Morris", role=c("cre"), email="morrism@u.washington.edu"),
    	   person("Carter T.", "Butts", role=c("aut"), email="buttsc@uci.edu"),
    	   person("Li", "Wang", role=c("aut"), email="lxwang@u.washington.edu"),
    	   person("Matthew", "Hamilton", role=c("aut"), email="matthewlhamilton@gmail.com"))
 LinkingTo: ergm
-Suggests: ergm.userterms
+Suggests: ergm.userterms, testthat
 Depends: network (>= 1.7-1), ergm (>= 3.1), statnet.common
 Description:  A collection of ERGM change statistics contributed by the statnet user community.
 License: GPL-3 + file LICENSE
