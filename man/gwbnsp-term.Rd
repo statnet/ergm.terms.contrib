@@ -51,7 +51,7 @@ require(ergm.terms.contrib)
 # create example data
 bel <- data.frame(actor = c("a","a","a","b","b","b","b","c","c","c","c"), 
                   event = c("e1","e2","e3","e3","e1","e4","e5","e3","e1","e4","e6"))
-bnet <- network(bel,bipartite=3,directed=F)
+bnet <- network(bel,bipartite=3,directed=FALSE)
 
 # how many actor (first mode) dyads have ANY shared partners?
 summary(bnet ~ gwb1nsp(0,TRUE))
