@@ -8,11 +8,12 @@ Authors@R: c(
    	   person("Steven M.", "Goodreau", role=c("aut"), email="goodreau@u.washington.edu"),
        person("Pavel N.", "Krivitsky", role=c("aut"), email="pavel@uow.edu.au"),
        person("Martina", "Morris", role=c("cre"), email="morrism@u.washington.edu"),
+       person("Skye", "Bender-deMoll", role=c("ctb"), email="skyebend@uw.edu"),
    	   person("Carter T.", "Butts", role=c("aut"), email="buttsc@uci.edu"),
    	   person("Matthew", "Hamilton", role=c("aut"), email="matthewlhamilton@gmail.com"))
 LinkingTo: ergm
 Suggests: ergm.userterms, testthat
-Depends: network (>= 1.7-1), ergm (>= 3.1), statnet.common
+Depends: network (>= 1.13), ergm (>= 3.6), statnet.common
 Description:  A collection of ERGM change statistics contributed by the statnet user community.
-License: GPL-3 + file LICENSE
-URL: http://statnet.org
+License: GPL-3
+URL: https://github.com/statnet/ergm.terms.contrib

@@ -24,7 +24,6 @@
 }
 
 \author{
-
-  
   Maintainer: Martina Morris \email{morris@uw.edu}
+  Authors for specific terms are listed on the help page for each term.
 }
