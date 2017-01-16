@@ -4,7 +4,7 @@ require(testthat)
 
 # par(mar=c(0,0,0,0))
 net <- network.initialize(5,directed=F)
-net%v%"pendants" <- c("zgreen","red","black", "zgreen", "red")#,"zgreen")
+net%v%"pendants" <- c("zgreen","red","black", "zgreen", "red")
 net[1,2] <- 1
 net[1,3] <- 1
 net[3,4] <- 1
