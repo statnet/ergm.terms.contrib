@@ -1,4 +1,4 @@
-require(ergm.userterms)
+require(ergm.userterms.contrib)
 require(sna)
 require(testthat)
 
