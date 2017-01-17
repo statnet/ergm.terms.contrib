@@ -4,10 +4,8 @@
 #include "edgetree.h"
 #include "changestat.h"
 
-
-
 /* Add your function names here */
 
-CHANGESTAT_FN(d_gwnspattr);
+CHANGESTAT_FN(d_gwdspattr);
 
 #endif
