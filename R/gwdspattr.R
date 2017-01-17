@@ -1,6 +1,6 @@
-InitErgmTerm.gwnspattr <- function(nw, arglist, ...) {
+InitErgmTerm.gwdspattr <- function(nw, arglist, ...) {
   ### Check the network and arguments to make sure they are appropriate.
-  a <- check.ErgmTerm (nw, arglist, #directed=FALSE,
+  a <- check.ErgmTerm (nw, arglist,
                        varnames = c("attrname","p1keep","p2keep","alpha"),
                        vartypes = c("character","numeric", "numeric","numeric"),
                        defaultvalues = list(NULL, NULL, NULL, NULL),
@@ -14,7 +14,7 @@ InitErgmTerm.gwnspattr <- function(nw, arglist, ...) {
   
   u <- c(a$p1keep,a$p2keep, a$alpha)
   
-  coef.names <- paste0("gwnspattr.", a$attrname, ".", p1u[a$p1keep], "_", p1u[a$p2keep],".a:",a$alpha)
-  list(name = "gwnspattr", coef.names = coef.names, #name and coef.names: required
+  coef.names <- paste0("gwdspattr.", a$attrname, ".", p1u[a$p1keep], "_", p1u[a$p2keep],".a:",a$alpha)
+  list(name = "gwdspattr", coef.names = coef.names, #name and coef.names: required
        inputs = c(nodecov, u), minval=0)
 }
