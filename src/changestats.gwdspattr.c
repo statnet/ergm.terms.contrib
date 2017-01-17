@@ -2,7 +2,7 @@
 #include "changestats.users.h"
 
 
-CHANGESTAT_FN(d_gwnspattr){
+CHANGESTAT_FN(d_gwdspattr){
   Edge e, f;
   int i, echange, ochange;
   int L2tu, L2uh;
