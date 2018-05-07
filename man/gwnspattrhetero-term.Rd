@@ -38,15 +38,15 @@ net[1,2] <- net[1,3] <- net[3,4] <- net[4,2] <- net[3,5] <- net[2,5] <- 1
 plot(net, vertex.col = as.factor(net%v%"pendants"), displaylabels = T)
 
 # how many non-connected dyads with different attribute values have ANY shared partners?
-summary(net ~ dgwnspattr3("pendants",99,0))
+summary(net ~ gwnspattrhetero("pendants",99,0))
 # 1->X->5; 4->X->5; 3->X->2
 
 # how many shared partners are there for non-connected dyads with different attribute values?
-summary(net ~ dgwnspattr3("pendants",99,100))
+summary(net ~ gwnspattrhetero("pendants",99,100))
 # 1->X->5 (2 shared partners); 4->X->5 (1 shared partner); 3->X->2 (1 shared partner)
 
 # non-extreme alphas weight each additional shared partner less than one before
-summary(net ~ dgwnspattr3("pendants",99,1))
+summary(net ~ gwnspattrhetero("pendants",99,1))
 }
 
 \keyword{models}
